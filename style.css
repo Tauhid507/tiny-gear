@@ -1,0 +1,60 @@
+body {
+  /* background-color: #AAAAAA; */
+ 
+}
+/* Brand  */
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 61px;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-img{
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+}
+/* Popular section style */
+.popular{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap:30px;
+}
+.item {
+  /* width: 329px; */
+  height: 476px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.cart-img{
+  text-align: center;
+  margin-top: 17px;
+  border-radius: 5px;
+}
+.cart-info{
+  margin-left: 14px;
+}
+.cart-title{
+  font-size: 28px;
+  color: #18191F;
+}
+.price{
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.rate{
+  color: #787885;
+  font-size: 14px;
+}
